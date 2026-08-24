@@ -9,7 +9,9 @@ cidr adalah bilangan untuk menandai jumlah bit yang digunakan untuk subnet mask.
 1. Network portion adalah bagian dari alamat IP yang digunakan untuk mengidentifikasi jaringan tertentu.
 dianalogikan seperti nomor perumahan.
 2. Host portion adalah bagian dari alamat IP yang digunakan untuk mengidentifikasi host tertentu dalam jaringan tersebut. dianalogikan seperti nomor rumah(id unique di srtiap jaringan) bisa disimpulkan seperti ini:
-``` Network portion + Host portion = Alamat IP. Contoh: 192.168.1.10/24
+
+```
+Network portion + Host portion = Alamat IP. Contoh: 192.168.1.10/24
 ```
 ### IPV4 dan Subnet Mask
 3. IPV4 adalah alamat IP yang terdiri dari 32 bit, dibagi menjadi 4 oktet (8 bit per oktet) dan ditulis dalam format desimal bertitik. Contoh: 192.168.1.1
