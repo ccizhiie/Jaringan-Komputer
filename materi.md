@@ -11,12 +11,19 @@ dianalogikan seperti nomor perumahan.
 2. Host portion adalah bagian dari alamat IP yang digunakan untuk mengidentifikasi host tertentu dalam jaringan tersebut. dianalogikan seperti nomor rumah(id unique di srtiap jaringan) bisa disimpulkan seperti ini:
 
 ```
-Network portion + Host portion = Alamat IP. Contoh: 192.168.1.10/24
+Network portion + Host portion = Alamat IP.
+``` Contoh: 192.168.1.10/24
 ```
 ### IPV4 dan Subnet Mask
-3. IPV4 adalah alamat IP yang terdiri dari 32 bit, dibagi menjadi 4 oktet (8 bit per oktet) dan ditulis dalam format desimal bertitik. Contoh: 192.168.1.1
+3. IPV4 adalah alamat IP yang terdiri dari 32 bit, dibagi menjadi 4 oktet (8 bit per oktet) dan ditulis dalam format desimal bertitik.
+```
+ Contoh: 192.168.1.1
+ ```
 
-4. Subnet mask adalah filter wajib yang mendampingi alamat IP untuk menentukan network portion dan host portion. Subnet mask juga terdiri dari 32 bit, dibagi menjadi 4 oktet (8 bit per oktet) dan ditulis dalam format desimal bertitik. Contoh: 255.255.255.0
+4. Subnet mask adalah filter wajib yang mendampingi alamat IP untuk menentukan network portion dan host portion. Subnet mask juga terdiri dari 32 bit, dibagi menjadi 4 oktet (8 bit per oktet) dan ditulis dalam format desimal bertitik.
+```
+ Contoh: 255.255.255.0
+ ```
 
 ### Prefix Length
 Cara penulisan subnet mask yang jauh lebih ringkas. Menulis 255.255.255.0 memakan waktu; prefix length menyingkatnya menjadi /24 (menandakan ada 24 bit angka 1 pada deret biner).
