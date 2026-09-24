@@ -12,7 +12,7 @@ dianalogikan seperti nomor perumahan.
 
 ```
 Network portion + Host portion = Alamat IP.
-``` Contoh: 192.168.1.10/24
+ Contoh: 192.168.1.10/24
 ```
 ### IPV4 dan Subnet Mask
 3. IPV4 adalah alamat IP yang terdiri dari 32 bit, dibagi menjadi 4 oktet (8 bit per oktet) dan ditulis dalam format desimal bertitik.
